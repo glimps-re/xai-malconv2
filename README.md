@@ -29,7 +29,7 @@ The primary technologies and method used in this project include:
 
 A simplified representation of our explainability process is presented hereafter:
 
-<img src="assets/explicability_process.jpg" style="width: 80%; height: auto;">
+![explicability](assets/explicability_process.jpg)
 
 ## Dataset
 
@@ -48,10 +48,10 @@ You can reuse our comparison methods and adapt it to your use case, it can be ap
 ## Installation
 
 ```bash
-git clone <https_repo_url>
-cd xai_malware
-python3.11 -m venv venv_xai_malware
-source venv_xai_malware/bin/activate
+git clone https://github.com/glimps-re/xai-malconv2.git
+cd xai_malconv2
+python3.11 -m venv venv_xai_malconv2
+source venv_xai_malconv2/bin/activate
 pip install requirements.txt
 ```
 
